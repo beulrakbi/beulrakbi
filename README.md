@@ -1,4 +1,4 @@
-## jay
+## I am Jay
 
 <img src="https://img.shields.io/badge/jaeyong Hwang-FFCA28?style=flat-square&logo=firebase&logoColor=white"/>
 
