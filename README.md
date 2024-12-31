@@ -1,16 +1,14 @@
-## Hi there 👋
+## jay
 
-<!--
-**beulrakbi/beulrakbi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://img.shields.io/badge/jaeyong Hwang-FFCA28?style=flat-square&logo=firebase&logoColor=white"/>
 
-Here are some ideas to get you started:
+**안녕하세요**.😀
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+클라우드기반 백엔드 풀스택 웹서비스 개발 수강생 **황재용**입니다.
+
+- **Front-end**:[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+
+- **Back-end**:[![My Skills](https://skillicons.dev/icons?i=java&theme=light)](https://skillicons.dev) [![My Skills](https://skillicons.dev/icons?i=py&theme=light)](https://skillicons.dev)[![My Skills](https://skillicons.dev/icons?i=react&theme=light)](https://skillicons.dev) [![My Skills](https://skillicons.dev/icons?i=spring&theme=light)](https://skillicons.dev) [![My Skills](https://skillicons.dev/icons?i=mysql&theme=light)](https://skillicons.dev) [![My Skills](https://skillicons.dev/icons?i=aws&theme=light)](https://skillicons.dev) 
+
+
+- **license**: 정보처리기사, sqld, mos-master
