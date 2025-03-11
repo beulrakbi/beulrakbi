@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dd</title>
+    <link rel="stylesheet" href="css/login.css" type="text/css" />
+  </head>
+  <style>
+  </style>
+  <body>
+    
+    <div class="login">
+        <img id="login_img" src="images/image 50.png" alt="로그인 이미지">
+        <img id="logo" src="images/propick.png" alt="프로픽 로고">
+        <p id="slogan">&nbsp;&nbsp;건강한 나를 위한 <br> 맞춤 프로틴 &nbsp;프로픽</p>
+        <div class="gwalho">
+            <span id="open">[</span>
+            <span id="close">]</span>
+        </div>
+
+        <div id="login-wrapper">
+            <!-- 화면만 구성할 때는 form태그 생략 가능 -->
+            <!-- <form method= "Post" id="login-form" > -->
+                <p id="login-label">login</p>
+                <input id="logintype" type="text" name="user_id" placeholder= "아이디를 입력해주세요.">
+                <p id="error-message-id">아이디를 입력해주세요.</p>
+                <p id="pwd-label">pwd</p>
+                <p id="error-message-pwd">비밀번호를 입력해주세요.</p>
+                <input id="pwdtype" type="password"  name="user-pwd" placeholder="비밀번호를 입력해주세요.">
+                <p id="allerror">아이디 또는 비밀번호를 다시 확인해주세요.</p>
+                <button id="welecome" onclick="validateForm()">로그인</button>
+                <!-- <input id="welecome" type="submit" value="login"> -->
+            <!-- </form> -->
+        </div>
+
+     
+        <button id="findid">아이디 찾기</button>
+        <button id="findpwd">비밀번호 찾기</button>
+        <button id="join">회원가입</button>
+
+        <p id="bar">|</p>
+    </div>
+
+    <script>
+        //사용자가 폼에 입력한 데이터가 유효한지 확인
+        function validateForm(){
+            let userid = document.getElementById("logintype").value;
+            let password = document.getElementById("pwdtype").value;
+
+            let errorMessageId = document.getElementById("error-message-id");
+            let errorMessagePwd = document.getElementById("error-message-pwd");
+            let allerror = document.getElementById("allerror")
+            let valid = true;
+
+            if(userid.trim() === "" && password.trim() === ""){
+                allerror.style.display = "block";
+                errorMessageId.style.display = "none";
+                errorMessagePwd.style.display = "none";
+                valid = false;
+            } else if(password.trim() === ""){
+                errorMessagePwd.style.display = "block"; 
+                allerror.style.display = "none";
+                errorMessageId.style.display = "none";
+                valid = false;
+            } else if(userid.trim() === ""){
+                errorMessageId.style.display = "block";
+                errorMessagePwd.style.display = "none";
+                allerror.style.display = "none";
+                valid = false;
+            }
+            else{
+                errorMessageId.style.display = "none";
+                errorMessagePwd.style.display = "none";
+                allerror.style.display = "none";
+            }
+
+
+            // if (userid.trim() === "") {
+            //     errorMessageId.style.display = "block";
+            //     valid = false;
+            // } else {
+            //     errorMessageId.style.display = "none";
+            // }
+
+            // if (password.trim() === "") {
+            //     errorMessagePwd.style.display = "block"; // 경고 메시지 표시
+            //     valid = false;
+            // } else {
+            //     errorMessagePwd.style.display = "none"; // 경고 메시지 숨김
+            // }
+
+            return valid;
+        }
+    </script>
+  </body>
+</html>
