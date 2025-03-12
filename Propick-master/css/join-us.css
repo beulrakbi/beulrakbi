@@ -3,7 +3,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #sign-up{
@@ -20,6 +20,24 @@
     font-size: 16px;
     font-style: bold;
 }
+
+#errormessage-name{
+    color: red;
+    font-size: 12px;
+    display: none; 
+    position: absolute;
+    top: 17.5vh;
+    left: 35vw;
+}
+
+/* #errormessage-name2{
+    color: red;
+    font-size: 12px;
+    display: none; 
+    position: absolute;
+    top: 17.5vh;
+    left: 35vw;
+} */
 
 #insertname{
     position: absolute;
@@ -39,6 +57,15 @@
     left: 33vw;
     font-size: 16px;
     font-style: bold;
+}
+
+#errormessage-phone{
+    color: red;
+    font-size: 12px;
+    display: none; 
+    position: absolute;
+    top: 30.5vh;
+    left: 35.9vw;
 }
 
 #insertphone{
@@ -63,4 +90,236 @@
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     padding-left: 20px;
+}
+
+#line{
+    width: 40vw;
+    position: absolute;
+    top: 55vh;
+    left: 33vw;
+}
+
+#id{
+    position: absolute;
+    top: 58vh;
+    left: 33vw;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#errormessage-id{
+    color: red;
+    font-size: 12px;
+    display: none; 
+    position: absolute;
+    top: 58.5vh;
+    left: 35.9vw;
+}
+
+#insertid{
+    position: absolute;
+    top: 62vh;
+    left: 33vw;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    padding-left: 20px;
+}
+
+#pwd{
+    position: absolute;
+    top: 72vh;
+    left: 33vw;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#errormessage-pwd{
+    color: red;
+    font-size: 12px;
+    display: none; 
+    position: absolute;
+    top: 72.5vh;
+    left: 36.7vw;
+}
+
+#insertpwd{
+    position: absolute;
+    top: 76vh;
+    left: 33vw;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    padding-left: 20px;
+}
+
+#conform-pwd{
+    position: absolute;
+    top: 86vh;
+    left: 33vw;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#insertconpwd{
+    position: absolute;
+    top: 90vh;
+    left: 33vw;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    padding-left: 20px;
+}
+
+
+#line2{
+    width: 40vw;
+    position: absolute;
+    top: 104vh;
+    left: 33vw;
+}
+
+#gender{
+    position: absolute;
+    top: 110vh;
+    left: 33vw;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#male-label {
+    position: absolute;
+    top: 115vh;
+    left: 33vw;
+    font-size: 16px;
+}
+
+#female-label {
+    position: absolute;
+    top: 115vh;
+    left: 40vw;
+    font-size: 16px;
+}
+
+#birth{
+    position: absolute;
+    top: 120vh;
+    left: 33vw;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#insertbirth{
+    position: absolute;
+    top: 124vh;
+    left: 33vw;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    padding-left: 20px;
+}
+
+#clickallagree{
+    position: absolute;
+    top: 140vh;
+    left: 33vw;
+    cursor: pointer;
+    /* user-select: none; */
+}
+
+#line3{
+    width: 40vw;
+    position: absolute;
+    top: 144vh;
+    left: 33vw;
+}
+
+#clickallagree1{
+    position: absolute;
+    top: 146vh;
+    left: 33vw;
+    cursor: pointer;
+    /* user-select: none; */
+}
+
+#clickallagree2{
+    position: absolute;
+    top: 152vh;
+    left: 33vw;
+    cursor: pointer;
+    /* user-select: none; */
+}
+
+#clickallagree3{
+    position: absolute;
+    top: 158vh;
+    left: 33vw;
+    cursor: pointer;
+    /* user-select: none; */
+}
+
+#clickallagree4{
+    position: absolute;
+    top: 164vh;
+    left: 33vw;
+    cursor: pointer;
+    /* user-select: none; */
+}
+
+
+
+#viewfull1{
+    position: absolute;
+    top: 152vh;
+    left: 70vw;
+    color: #959595;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#viewfull2{
+    position: absolute;
+    top: 158vh;
+    left: 70vw;
+    color: #959595;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#viewfull3{
+    position: absolute;
+    top: 164vh;
+    left: 70vw;
+    color: #959595;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#completejoin{
+    margin-top: 3%;
+    position: absolute;
+    top: 170vh;
+    left: 44vw;
+    color: white;
+    font-size: 24px;
+    border: 1px solid #FF5C35;
+    border-radius: 25px;
+    background-color: #FF5C35;
+    cursor: pointer;
+    width: 20vw;
+    height: 7vh;
 }
