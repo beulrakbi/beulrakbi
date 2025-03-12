@@ -12,16 +12,159 @@
   <body>
     <div id="join-us1">
         <p id="sign-up">회원가입</p>
+
         <p id="name">이름</p>
+        <p id="errormessage-name"></p>
         <input id="insertname" type="text" placeholder="이름을 입력해주세요." >
+
         <p id="phone">연락처</p>
+        <p id="errormessage-phone"></p>
         <input id="insertphone" type="text" placeholder="연락처(‘-’제외)를 입력해주세요.">
+
         <input id="insertnumber" type="text" placeholder="인증번호를 입력해주세요.">
+
+        <hr id="line">
+
         <p id="id">아이디</p>
+        <p id="errormessage-id"></p>
+        <input id="insertid" type="text"  placeholder="아이디를 입력해주세요.">
+
         <p id="pwd">비밀번호</p>
+        <p id="errormessage-pwd"></p>
+        <input id="insertpwd" type="text"  placeholder="비밀번호를 입력해주세요.">
+
         <p id="conform-pwd">비밀번호 확인</p>
+        <input id="insertconpwd" type="text"  placeholder="비밀번호를 다시 입력해주세요.">
+
+        <hr id="line2">
+
         <p id="gender">성별(선택)</p>
+        <label  id="male-label">
+          <input type="radio" name="gender" value="male"> 남성
+        </label>
+        <label  id="female-label">
+          <input type="radio" name="gender" value="female"> 여성
+        </label>
+
+        <p id="birth">출생년도(선택)</p>
+        <input id="insertbirth" type="text"  placeholder="출생년도를 숫자(ex)2002로 입력해주세요.">
         
+        <label id="clickallagree">
+          <input type="checkbox" id="allagree" name="temrs"> 모두 동의하기
+        </label>
+        
+        <hr id="line3">
+
+        <label id="clickallagree1">
+          <input type="checkbox" id="agree1" name="temrs"> 만14세 이상입니다.
+        </label>
+
+        <label id="clickallagree2">
+          <input type="checkbox" id="agree2" name="temrs"> 이용약관 동의
+        </label>
+
+        <label id="clickallagree3">
+          <input type="checkbox" id="agree3" name="temrs"> 개인정보 처리 방침 동의
+        </label>
+        
+        <label id="clickallagree4">
+          <input type="checkbox" id="agree4" name="temrs"> 마케팅 수신 동의
+        </label>
+
+        <button id="viewfull1">전문보기</button>
+        <button id="viewfull2">전문보기</button>
+        <button id="viewfull3">전문보기</button>
+        
+
+        <button id="completejoin" onclick="validateForm()">회원가입</button>
     </div>
+
+    <script>
+      function validateForm(){
+        let userName = document.getElementById("insertname").value
+        let userPhone = document.getElementById("insertphone").value
+        let userId = document.getElementById("insertid").value
+        let userPwd = document.getElementById("insertpwd").value
+
+        let errorMessageName = document.getElementById("errormessage-name");
+        let errorMessagePhone = document.getElementById("errormessage-phone");
+        let errorMessageId = document.getElementById("errormessage-id");
+        let errorMessagePwd = document.getElementById("errormessage-pwd")
+
+        let valid = true;
+        let koreanRegex = /^[가-힣]+$/;
+        let numberRegex = /^[0-9]+$/;
+        let engNum =  /^[a-zA-Z0-9]*$/;
+        let specialCharRegex = /[!@#$%^&*(),.?":{}|<>]/;
+
+
+        // 이름 유효성 검사
+        if(userName.trim() === ""){
+          errorMessageName.style.display = "block";
+          errorMessageName.textContent = "이름을 입력하세요."; 
+          valid = false;
+        }else if(!koreanRegex.test(userName)){
+          errorMessageName.style.display = "block";
+          errorMessageName.textContent = "한글만 입력 가능합니다."; 
+         valid = false;
+        }else{
+          errorMessageName.style.display = "none";
+        }
+
+        // 연락처 유효성 검사
+        if(userPhone.trim() === ""){
+          errorMessagePhone.style.display = "block";
+          errorMessagePhone.textContent = "연락처를 입력하세요.";
+          valid = false; 
+        }else if(!numberRegex.test(userPhone)){
+          errorMessagePhone.style.display = "block";
+          errorMessagePhone.textContent = "숫자만 입력 가능합니다.";
+          valid = false;
+        }else{
+          errorMessagePhone.style.display = "none";
+        }
+
+        //인증번호 유효성 검사
+
+
+        //아이디 유효성 검사
+        // 빈칸, 중복, 영어또는 숫자만 가능...
+        // 중복 관련해서는 데이터가 없어서 못함
+        if(userId.trim() === ""){
+          errorMessageId.style.display = "block";
+          errorMessageId.textContent = "아이디를 입력하세요."
+          valid = false;
+        } else if(!engNum.test(userId)) {
+          errorMessageId.style.display="block";
+          errorMessageId.textContent = "숫자와 영어로만 입력하세요."
+          valid = false;
+        } else{
+          errorMessageId.style.display ="none";
+        }
+
+        //비밀번호 유효성 검사
+        // 영문 포함, 숫자 포함, 특수 문자 포함, 공백x, 비밀번호 자리 8~20
+    
+        if (userPwd.trim() === "") {
+          errorMessagePwd.style.display = "block";
+          errorMessagePwd.textContent = "비밀번호를 입력하세요.";
+          valid = false;
+        } else if (!engNum.test(userPwd) || !specialCharRegex.test(userPwd)) {
+          errorMessagePwd.style.display = "block";
+          errorMessagePwd.textContent = "영어, 숫자, 특수문자를 포함시켜 입력해주세요.";
+          valid = false;
+        } else {
+          errorMessagePwd.style.display = "none";
+        }
+
+
+
+
+
+
+        return valid;
+}
+
+    </script>
   </body>
   </html>
