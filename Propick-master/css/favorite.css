@@ -27,9 +27,11 @@ body {
 .middle_container{
     margin:auto;
     width: 720px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
 }
 
 .favorite_title{
@@ -38,11 +40,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 15vh;
+    gap: 10px;
 }
 
 .small_title{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     width: 100%;
 }
@@ -51,23 +55,33 @@ body {
     width: 100%;
     height: 536px;
     border: 1px solid #4E5759;
-    border-radius: 20px;
-    padding: 20px;    
+    border-radius: 20px;   
 }
 
 .product_directory{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 58px;
+    /* gap: 20px; */
 }
 
 .product{
     border: 1px solid black;
     width: 135px;
-    height: 145px;
+    height: 160px;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 10px;
     border-radius: 15px;
+    margin: 10px;
+}
+
+.favorite_star{
+    width: 100%;
+    padding: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
 }
