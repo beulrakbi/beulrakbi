@@ -114,14 +114,36 @@ p{
     gap: 30px;
 }
 
-.click_box{
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
+
+.popup{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+}
+
+#popup_content{
+    margin-top: 20px;
+}
+
+.confirm_ox{
+    border:none;
     background-color: #4E5759;
     color: white;
-    border-radius: 90px;
-    width: 80px;
-    height: 25px;
-    text-align: center;
+    border-radius: 5px;
+    width: 33px;
+    cursor: pointer;
+    margin-top: 10px;
 }
+
+button:hover{
+    background-color: #FF5C35;
+}
+
+
