@@ -36,12 +36,12 @@ p{
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    padding: 120px;
+    /* padding: 120px; */
 }
 
 .title{
-    margin-bottom: 10px;
-    font-size: 28px;
+  width: 100%;
+  height: 100%;
 }
 
 .username_box{
@@ -49,61 +49,72 @@ p{
 }
 
 .userphone_box{
-    border-bottom: 1px solid #000;
-    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 10px;
-    width: 577px;
 }
+
+/* #insert_phone{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border:none;
+    width: 100%;
+    height: 61px;
+    padding-left: 10px;
+    color: #959595;
+} */
 
 .useridpwd_box{
     border-bottom: 1px solid #000;
-    padding-bottom: 10px;
     margin-bottom: 10px;
-    width: 577px;
+    width: 100%;
 }
 
 #allagree{
     border-bottom: 1px solid #000;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    width: 577px;
+    width: 100%;
 }
 
 .insert{
-    margin-bottom: 30px;
     background-color: #F2F2F2;
     border-radius: 5px;
     border:none;
-    width: 577px;
+    width: 100%;
     height: 61px;
-    padding-left: 10px;
     color: #959595;
 }
 
-.insertphone{
-    margin-bottom: 30px;
-    background-color: #F2F2F2;
+.insert1{
+  background-color: #F2F2F2;
     border-radius: 5px;
     border:none;
-    width: 377px;
+    width: 100%;
     height: 61px;
-    padding-left: 10px;
     color: #959595;
+    margin-bottom: 10px;
 }
+
 
 .request{
   margin-bottom: 30px;
   margin-left: 10px;
-  background-color: #333333;
+  background-color: #FF5C35;
   border-radius: 25px;
   border:none;
-  width: 153px;
-  height: 61px;
+  width: 20%;
+  height: 100%;
   padding: 10px;
   color: white;
   cursor : pointer;
 }
 
+#insert_birth{
+  margin-bottom: 20px;
+}
 
 .radiogender{
   margin-bottom: 30px;
@@ -148,4 +159,75 @@ p{
   display: flex;
   align-items: center;
   width: 100%;
+}
+
+#error_message1{
+  display: none;
+  color: #FF5C35;
+  font-size: 12px;
+}
+
+
+#error_message2{
+  display: none;
+  color: #FF5C35;
+  font-size: 12px;
+}
+
+#error_message3{
+  display: none;
+  color: #FF5C35;
+  font-size: 12px;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+#error_message4{
+  display: none;
+  color: #FF5C35;
+  font-size: 12px;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+#error_message5{
+  display: none;
+  color: #FF5C35;
+  font-size: 12px;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+#error_message6{
+  display: none;
+  color: #FF5C35;
+  font-size: 12px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+#terms_content1{
+  border:1px solid #959595;
+  border-radius: 2px;
+  display: none;
+  padding-left: 2px;
+}
+
+#terms_content2{
+  border:1px solid #959595;
+  border-radius: 2px;
+  display: none;
+  padding-left: 2px;
+}
+
+#terms_content3{
+  border:1px solid #959595;
+  border-radius: 2px;
+  display: none;
+  padding-left: 2px;
+}
+
+.content{
+  font-size: 10px;
+  font-weight: lighter;
 }
