@@ -40,4 +40,25 @@
 > 설명: 실습 중심의 개인 프로젝트  
 > 기간: 2025.01 ~ 2025.02  
 > 주요기능: OO 추천 시스템, REST API 구축  
-> 주요기술: Java, MySQL, Thymele
+> 주요기술: Java, MySQL, Thymeleaf
+
+> 📎 자세한 내용은 각 프로젝트의 `README.md`를 참고해주세요!
+
+---
+
+## 🧠 What I'm Learning
+
+- CS 기초 지식 (운영체제, 네트워크, 자료구조 & 알고리즘)
+- 객체지향 설계 원칙 (SOLID, 디자인 패턴)
+- 테스트 코드 작성 (JUnit)
+
+---
+
+## 📫 Contact
+
+- 📧 Email: beomgolaeda@gmail.com  
+- 💼 Blog/Portfolio: [Notion 링크 삽입 예정]
+
+---
+
+> 감사합니다. 끊임없이 배우고 성장하는 개발자가 되겠습니다. 🙇‍♂️
