@@ -36,8 +36,8 @@
 > 주요기술: Spring Boot
 
 ### 📌 [Readio] 
-> front:(https://github.com/beulrakbi/readio-front.git)
-> back:(https://github.com/beulrakbi/readio-back.git)
+> front:(https://github.com/beulrakbi/readio-front.git)  
+> back:(https://github.com/beulrakbi/readio-back.git)  
 > 설명: 감정, 관심사, 상황에 맞춰 책 리뷰 영상을 추천하는 웹 플랫폼
 > 기간: 2025.04 ~ 2025.06  
 > 주요기능: ex  
