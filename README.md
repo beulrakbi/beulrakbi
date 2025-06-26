@@ -38,6 +38,7 @@
 ### 📌 [Readio] 
 > front:(https://github.com/beulrakbi/readio-front.git)  
 > back:(https://github.com/beulrakbi/readio-back.git)  
+> 프로젝트 영상: (https://www.notion.so/Readio-21e39a40f57d8013b83ee023b1cf2387)  
 > 설명: 감정, 관심사, 상황에 맞춰 책 리뷰 영상을 추천하는 웹 플랫폼
 > 기간: 2025.04 ~ 2025.06  
 > 주요기능: ex  
