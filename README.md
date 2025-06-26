@@ -36,9 +36,9 @@
 > 주요기술: Spring Boot
 
 ### 📌 [Readio] 
-> front:(https://github.com/beulrakbi/readio-front.git)  
-> back:(https://github.com/beulrakbi/readio-back.git)  
-> 프로젝트 영상:(https://www.notion.so/Readio-21e39a40f57d8013b83ee023b1cf2387)  
+> front-end:[git-hub](https://github.com/beulrakbi/readio-front.git)  
+> back-end:[git-hub](https://github.com/beulrakbi/readio-back.git)  
+> 프로젝트 영상:[영상](https://www.notion.so/Readio-21e39a40f57d8013b83ee023b1cf2387)  
 > 설명: 감정, 관심사, 상황에 맞춰 책 리뷰 영상을 추천하는 웹 플랫폼
 > 기간: 2025.04 ~ 2025.06  
 > 주요기능: 회원가입, 로그인/로그아웃, 영상 추천, 피드(커뮤니티), 게시판, 감정 관리  
@@ -59,7 +59,7 @@
 ## 📫 Contact
 
 - 📧 Email: iamjyh99@gmail.com  
-- 💼 Blog/Portfolio: https://www.notion.so/Portfolio-21239a40f57d8088b0b8e60b5098f4c6
+- 💼 Blog/Portfolio: [Notion]https://www.notion.so/Portfolio-21239a40f57d8088b0b8e60b5098f4c6
 
 ---
 
