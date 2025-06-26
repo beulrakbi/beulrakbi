@@ -59,7 +59,7 @@
 ## 📫 Contact
 
 - 📧 Email: iamjyh99@gmail.com  
-- 💼 Blog/Portfolio: [Notion 링크 삽입 예정]
+- 💼 Blog/Portfolio: https://www.notion.so/Portfolio-21239a40f57d8088b0b8e60b5098f4c6
 
 ---
 
