@@ -58,9 +58,8 @@
 
 ## 📫 Contact
 
-- 📧 Email: iamjyh99@gmail.com  
-- 💼 Blog/Portfolio: [Notion](https://www.notion.so/Portfolio-21239a40f57d8088b0b8e60b5098f4c6) <- 클릭하면 포트폴리오로 이동합니다.  
-
+- 📧 Email:🔗 iamjyh99@gmail.com  
+- 💼 Blog/Portfolio:🔗 [Notion](https://www.notion.so/Portfolio-21239a40f57d8088b0b8e60b5098f4c6)  
 ---
 
 > 감사합니다. 끊임없이 배우고 성장하는 개발자가 되겠습니다. 🙇‍♂️
