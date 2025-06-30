@@ -30,14 +30,15 @@
 ## 💼 Projects
 
 ### 📌 [Propick] ()
+> git-hub : https://github.com/beulrakbi/propick.git  
 > 설명: 설문지를 통해 사용자의 건강 상태에 맞춰 프로틴 제품을 추천하는 플랫폼
 > 기간: 2025.01 ~ 2025.04  
-> 주요기능: ex  
+> 주요기능: 회원가입, 로그인/로그아웃, 설문, 상품 추천, 즐겨찾기  
 > 주요기술: Spring Boot
 
 ### 📌 [Readio] 
-> front-end:🔗[git-hub](https://github.com/beulrakbi/readio-front.git)    
-> back-end:🔗[git-hub](https://github.com/beulrakbi/readio-back.git)  
+> git-hub front-end:🔗[git-hub](https://github.com/beulrakbi/readio-front.git)    
+> git-hub back-end:🔗[git-hub](https://github.com/beulrakbi/readio-back.git)  
 > 프로젝트 영상:🔗[영상](https://www.notion.so/Readio-21e39a40f57d8013b83ee023b1cf2387)  
 > 설명: 감정, 관심사, 상황에 맞춰 책 리뷰 영상을 추천하는 웹 플랫폼
 > 기간: 2025.04 ~ 2025.06  
