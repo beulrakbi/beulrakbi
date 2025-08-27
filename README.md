@@ -51,7 +51,7 @@
 > 🔗 자세한 내용은 각 프로젝트의 `README.md`를 참고해주세요!
 
 ### 📌 [Jlog] 
-> project:[git-hub](https://github.com/beulrakbi/jlog.git)
+> project:[git-hub](https://github.com/beulrakbi/jlog.git)  
 > 결과물 영상: [jlog](https://www.youtube.com/watch?v=sPFcLeRC0T0)  
 > 설명: SpringBoot 기반의 블로그 프로젝트를 AWS Ubuntu 가상 환경에 배포하여, 실제 서비스 배포 과정을 학습하고 경험하고자 진행한 프로젝트  
 > 기간: 2025.08 ~ 2025.08  
