@@ -1,12 +1,12 @@
 # 👋 Hello, I'm Jay!
 
-🎯 백엔드 개발자 | Java, Spring, MySQL
+🎯 안녕하세요. 백엔드 개발자 황재용입니다.
 
 ---
 
 ## 📌 About Me
 
-- 🇰🇷 대한민국 거주
+- 🇰🇷 1999.04.02  
 - 💻 이젠아카데미 - 클라우드 기반 백엔드 풀스택 웹서비스 과정 수료
 - 🌱 Java, Spring, MySQL을 중심으로 웹 백엔드 개발을 공부하고 있습니다.
 - 🧑‍🔧 대학생활과 호주 워킹홀리데이 경험을 통해 책임감과 협업력을 키웠습니다.
@@ -30,15 +30,19 @@
 ## 💼 Projects
 
 ### 📌 [Propick] ()
-> project :🔗[git-hub](https://github.com/beulrakbi/propick.git)  
+> project:[git-hub](https://github.com/beulrakbi/propick.git)  
+> 결과물 영상: [propick](https://youtu.be/WBS3rHz3Ezg)  
 > 설명: 설문지를 통해 사용자의 건강 상태에 맞춰 프로틴 제품을 추천하는 플랫폼  
 > 기간: 2025.02 ~ 2025.04    
 > 주요기능: 회원가입, 로그인/로그아웃, 설문, 상품 추천, 즐겨찾기  
 > 주요기술: Spring Boot
 
+> 🔗 자세한 내용은 각 프로젝트의 `README.md`를 참고해주세요!
+
 ### 📌 [Readio] 
-> project front-end:🔗[git-hub](https://github.com/beulrakbi/readio-front.git)    
-> project back-end:🔗[git-hub](https://github.com/beulrakbi/readio-back.git)  
+> project front-end:[git-hub](https://github.com/beulrakbi/readio-front.git)    
+> project back-end:[git-hub](https://github.com/beulrakbi/readio-back.git)  
+> 결과물 영상: [readio](https://youtu.be/M8WMhGZ78SA)  
 > 설명: 감정, 관심사, 상황에 맞춰 책 리뷰 영상을 추천하는 웹 플랫폼  
 > 기간: 2025.04 ~ 2025.06  
 > 주요기능: 회원가입, 로그인/로그아웃, 영상 추천, 피드(커뮤니티), 게시판, 감정 관리  
@@ -46,6 +50,15 @@
 
 > 🔗 자세한 내용은 각 프로젝트의 `README.md`를 참고해주세요!
 
+### 📌 [Jlog] 
+> project:[git-hub](https://github.com/beulrakbi/jlog.git)
+> 결과물 영상: [jlog](https://www.youtube.com/watch?v=sPFcLeRC0T0)  
+> 설명: 감정, 관심사, 상황에 맞춰 책 리뷰 영상을 추천하는 웹 플랫폼  
+> 기간: 2025.04 ~ 2025.06  
+> 주요기능: 회원가입, 로그인/로그아웃, 영상 추천, 피드(커뮤니티), 게시판, 감정 관리  
+> 주요기술: SpringBoot, React
+
+> 🔗 자세한 내용은 각 프로젝트의 `README.md`를 참고해주세요!
 ---
 
 ## 🧠 What I'm Learning
@@ -58,8 +71,10 @@
 
 ## 📫 Contact
 
-- 📧 Email:🔗 iamjyh99@gmail.com  
-- 💼 Blog/Portfolio:🔗 [Notion](https://www.notion.so/Portfolio-21239a40f57d8088b0b8e60b5098f4c6)  
+- 📧 Email: iamjyh99@gmail.com  
+- 💼 Blog: [Velog](https://velog.io/@iamjyh/posts)
+- 📘 Portfolio: [Portfolio](http://3.39.150.67/)  
+  
 ---
 
 > 감사합니다. 끊임없이 배우고 성장하는 개발자가 되겠습니다. 🙇‍♂️
