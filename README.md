@@ -23,7 +23,7 @@
 `HTML` `CSS` `JavaScript`
 
 ### Tools & DevOps
-`Git` `GitHub` `Postman` `Figma` `IntelliJ` `VS Code`  
+`Git` `GitHub` `Postman` `Figma` `IntelliJ` `VS Code` `Docker` `AWS`  
 
 ---
 
@@ -35,7 +35,7 @@
 > 설명: 설문지를 통해 사용자의 건강 상태에 맞춰 프로틴 제품을 추천하는 플랫폼  
 > 기간: 2025.02 ~ 2025.04    
 > 주요기능: 회원가입, 로그인/로그아웃, 설문, 상품 추천, 즐겨찾기  
-> 주요기술: Spring Boot
+> 주요기술: Spring Boot, MySQL
 
 > 🔗 자세한 내용은 각 프로젝트의 `README.md`를 참고해주세요!
 
@@ -46,17 +46,17 @@
 > 설명: 감정, 관심사, 상황에 맞춰 책 리뷰 영상을 추천하는 웹 플랫폼  
 > 기간: 2025.04 ~ 2025.06  
 > 주요기능: 회원가입, 로그인/로그아웃, 영상 추천, 피드(커뮤니티), 게시판, 감정 관리  
-> 주요기술: SpringBoot, React
+> 주요기술: SpringBoot, React, MySQL
 
 > 🔗 자세한 내용은 각 프로젝트의 `README.md`를 참고해주세요!
 
 ### 📌 [Jlog] 
 > project:[git-hub](https://github.com/beulrakbi/jlog.git)
 > 결과물 영상: [jlog](https://www.youtube.com/watch?v=sPFcLeRC0T0)  
-> 설명: 감정, 관심사, 상황에 맞춰 책 리뷰 영상을 추천하는 웹 플랫폼  
-> 기간: 2025.04 ~ 2025.06  
-> 주요기능: 회원가입, 로그인/로그아웃, 영상 추천, 피드(커뮤니티), 게시판, 감정 관리  
-> 주요기술: SpringBoot, React
+> 설명: SpringBoot 기반의 블로그 프로젝트를 AWS Ubuntu 가상 환경에 배포하여, 실제 서비스 배포 과정을 학습하고 경험하고자 진행한 프로젝트  
+> 기간: 2025.08 ~ 2025.08  
+> 주요기능: 블로그 CRUD, 이메일 임시 비밀번호 전송    
+> 주요기술: SpringBoot, AWS, Docker, MySQL
 
 > 🔗 자세한 내용은 각 프로젝트의 `README.md`를 참고해주세요!
 ---
